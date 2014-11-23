@@ -9,16 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface BNRPerson : NSObject
-{
-    // BNRPerson has two instance variables
-    float _heightInMeters;
-    int _weightInKilos;
-}
-// BNRPerson has methods to read and set its instances variables
-- (float)heightInMeters;
-- (void)setHeightInMeters:(float)h;
-- (int)weightInKilos;
-- (void)setWeightInKilos:(int)w;
+
+// With properties set, it automatically declare accessors
+
+// BNRPerson has two properties
+@property (nonatomic) float heightInMeters;
+@property (nonatomic) int weightInKilos;
 
 // BNRPerson has a method that calculate the body mass index
 - (float)bodyMassIndex;

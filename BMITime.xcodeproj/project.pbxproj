@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		668A39CE1A20C9F800564600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 668A39CD1A20C9F800564600 /* main.m */; };
 		668A39D61A20CAE000564600 /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 668A39D51A20CAE000564600 /* BNRPerson.m */; };
+		668A39F51A223E0600564600 /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 668A39F41A223E0600564600 /* BNREmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		668A39CD1A20C9F800564600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		668A39D41A20CAE000564600 /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
 		668A39D51A20CAE000564600 /* BNRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
+		668A39F31A223E0600564600 /* BNREmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREmployee.h; sourceTree = "<group>"; };
+		668A39F41A223E0600564600 /* BNREmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				668A39CD1A20C9F800564600 /* main.m */,
 				668A39D41A20CAE000564600 /* BNRPerson.h */,
 				668A39D51A20CAE000564600 /* BNRPerson.m */,
+				668A39F31A223E0600564600 /* BNREmployee.h */,
+				668A39F41A223E0600564600 /* BNREmployee.m */,
 			);
 			path = BMITime;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668A39F51A223E0600564600 /* BNREmployee.m in Sources */,
 				668A39CE1A20C9F800564600 /* main.m in Sources */,
 				668A39D61A20CAE000564600 /* BNRPerson.m in Sources */,
 			);
@@ -238,6 +244,7 @@
 				668A39D31A20C9F800564600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
